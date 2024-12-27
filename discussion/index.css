@@ -1,0 +1,91 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Google Fonts*/
+body{
+    font-family: "Roboto", serif;
+}
+
+/*navbar*/
+.navbar{
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #252525;
+
+}
+
+.nav-logo img{
+    width: 150px;
+    height: auto;
+}
+
+.nav{
+    margin: 0 15px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition:background-color 0.3s;
+}
+
+.nav a:hover{
+    background-color: gray;
+}
+
+/*Margin is best used when creating space between element
+    padding is best used when  creating an elements border and its content
+*/
+
+#intro{
+    /*create space between the contents of the intro section and it's border*/
+    /* padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2rem;
+    padding-bottom: 3rem; */
+    padding: 2rem 10% 3rem;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+#intro button{
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#succeed-info{
+    padding: 2rem 10% 3rem;
+
+}
+#succeed-info h2{
+    margin-bottom: 1rem;
+}
+#succeed-info h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#succeed-info .card{
+    display: inline-block;
+    vertical-align: top;
+    min-height: 175px;
+    width: 30%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
