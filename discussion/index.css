@@ -89,3 +89,24 @@ body{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+
+#pre-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #252525;
+    color: white;
+}
+#pre-footer div{
+    flex: 1 1 200px;
+    padding: 20px;
+}
+
+#pre-footer h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
