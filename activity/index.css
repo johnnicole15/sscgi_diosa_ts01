@@ -42,3 +42,21 @@ body{
     background-color: #50C878;
     border-radius: 1rem;
 }
+
+#intro{
+    padding: 2rem 10% 3rem;
+    text-align: center;
+    background: #333333;
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+#intro p{
+    padding-top: 2rem;
+    text-align: justify;
+    font-family: "Merriweather";
+    font-size: small;
+}
