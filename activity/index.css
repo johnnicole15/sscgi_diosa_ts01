@@ -24,7 +24,7 @@ body{
 }
 
 .nav-item{
-    margin: 0 15px;
+    margin: 5px 15px;
 }
 
 .navbar-collapse ul{
@@ -40,7 +40,7 @@ body{
 
 .nav-item a:hover{
     background-color: #50C878;
-    border-radius: 1rem;
+    border-radius: .2rem;
 }
 
 #intro{
@@ -59,4 +59,20 @@ body{
     text-align: justify;
     font-family: "Merriweather";
     font-size: small;
+}
+
+#projects .card{
+    display: inline-block;
+    vertical-align: top;
+    min-height: 175px;
+    width: 30%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#projects .card .card-body{
+    background: #333333;
+    color: white;
+    border-style: dashed;
+    
 }
