@@ -60,19 +60,41 @@ body{
     font-family: "Merriweather";
     font-size: small;
 }
-
+#projects{
+    padding: 2rem 10% 3rem;
+}
 #projects .card{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
     min-height: 175px;
+    min-width: 200px;
     width: 30%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
 
-#projects .card .card-body{
+#projects .card img{
+    width: 200px;
+    height: 200px;
+}
+
+#projects .card p{
     background: #333333;
     color: white;
     border-style: dashed;
-    
+    padding: 20px;
+    margin: 0;
+}
+
+#projects .card .card-items{
+    padding: 5px;
+    min-height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#projects .card-container{
+    padding: 15px;
+    text-align: center;
 }
