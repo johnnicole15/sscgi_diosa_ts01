@@ -73,9 +73,17 @@ body{
     margin-right: 0.5rem;
 }
 
+
+
 #projects .card img{
     width: 200px;
     height: 200px;
+}
+#projects .card div{
+    min-height: 300px;
+}
+#projects .card h3{
+    margin: 15px;
 }
 
 #projects .card p{
@@ -84,6 +92,8 @@ body{
     border-style: dashed;
     padding: 20px;
     margin: 0;
+    text-align: justify;
+    min-height: 300px;
 }
 
 #projects .card .card-items{
@@ -97,4 +107,42 @@ body{
 #projects .card-container{
     padding: 15px;
     text-align: center;
+}
+
+#pre-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #333333;
+    color: white;
+}
+#pre-footer div{
+    flex: 1 1 150px;
+    padding: 20px;
+}
+
+#pre-footer h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#pre-footer p{
+    margin: 5px 0px;
+    font-size: 14px;
+}
+#pre-footer p:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+footer{
+    font-family: "Merriweather";
+    font-size: 10px;
+    font-style: italic;
+    padding-left: .5rem;
+    padding-top: .3rem;
 }
